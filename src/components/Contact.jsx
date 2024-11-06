@@ -32,8 +32,13 @@ function ContactForm() {
           <button className="bg-gray-800 text-white px-4 py-2 rounded-full mb-4 font-semibold">Contact Us</button>
           <h2 className="text-4xl font-bold mb-2">Let’s Get In Touch.</h2>
           <p className="text-gray-400 mb-4">
-            Or just reach out manually to <a href="mailto:hello@slothui.com" className="text-blue-400 hover:underline">hello@qikbuk.com</a>.
+            Or just reach out manually to <a href="mailto:hello@slothui.com" className="text-blue-400 hover:underline">prakul.sk55@gmail.com</a>.
           </p>
+          {/* Add phone section */}
+          <div className="flex items-center text-gray-400">
+            <FaPhone className="text-gray-400 mr-2" />
+            <span className="ml-2">+91-9643474388</span>
+          </div>
         </div>
         <div className="flex-1">
           <form onSubmit={handleSubmit} className="space-y-6">
@@ -91,18 +96,7 @@ function ContactForm() {
               ></textarea>
               <div className="text-gray-500 text-sm text-right mt-1">300/300</div>
             </div>
-            <div className="flex items-center text-sm text-gray-400">
-              <input
-                type="checkbox"
-                name="agreement"
-                checked={formData.agreement}
-                onChange={handleChange}
-                className="mr-2 text-blue-500 border-gray-600 focus:ring-0"
-              />
-              <label>
-                I hereby agree to our <a href="#" className="text-blue-400 hover:underline">Privacy Policy</a> terms.
-              </label>
-            </div>
+           
             <button
               type="submit"
               className="w-full bg-gradient-to-r from-purple-500 to-blue-500 text-white font-semibold py-3 rounded-lg flex items-center justify-center hover:from-purple-600 hover:to-blue-600 transition duration-300"

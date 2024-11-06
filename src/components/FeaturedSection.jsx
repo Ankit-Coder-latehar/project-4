@@ -2,25 +2,28 @@ import React from "react";
 
 const FeaturedSection = () => {
   return (
-    <div className="flex items-center justify-between py-6 px-4 bg-gray-100">
-      <p className="text-gray-800 text-lg font-semibold whitespace-nowrap">
+    <div className="flex flex-col md:flex-row items-center justify-between py-4 px-6 md:py-6 bg-gray-100 space-y-4 md:space-y-0">
+      {/* Featured Text */}
+      <p className="text-gray-800 text-lg md:text-xl font-semibold text-center md:text-left whitespace-nowrap md:ml-10">
         Featured By Company
       </p>
-      <div className="flex space-x-12 opacity-70 items-center justify-center mr-20">
+
+      {/* Logos Section */}
+      <div className="flex space-x-6 md:space-x-12 opacity-70 items-center justify-center">
         <img
           src="/Screenshot 2024-11-05 154431.png"
           alt="Fast Company"
-          className="h-10 w-auto"
+          className="h-8 md:h-10 w-auto"
         />
         <img
           src="/Screenshot 2024-11-05 154439.png"
           alt="The Wall Street Journal"
-          className="h-10 w-auto"
+          className="h-8 md:h-10 w-auto"
         />
         <img
           src="/Screenshot 2024-11-05 154446.png"
           alt="USA Today"
-          className="h-10 w-auto"
+          className="h-8 md:h-10 w-auto"
         />
       </div>
     </div>

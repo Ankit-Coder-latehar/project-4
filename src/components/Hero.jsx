@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 function Hero() {
   return (
-    <section className="relative w-full bg-gray-50 py-16 overflow-hidden">
+    <section className="relative w-full bg-gray-50 py-2 overflow-hidden mt-[-4]">
       {/* Main Heading */}
       <div className="text-center">
         <motion.h1

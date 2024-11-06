@@ -1,8 +1,8 @@
 import React from 'react';
 
-function Header() {
+function ContactHeader() {
   return (
-    <header className="flex justify-between items-center p-2 bg-gray-100">
+    <header className="flex justify-between items-center p-2 bg-gray-900">
       <div className="flex items-center space-x-4">
         <img src="logo.png" alt="Qikbuk Logo" className="h-8" />
       </div>
@@ -10,10 +10,9 @@ function Header() {
         {/* <a href="/" className="text-gray-600 hover:text-gray-900">Home</a>
         <a href="/contact" className="text-gray-600 hover:text-gray-900">Contact</a> */}
       </nav>
-      <a href="/contact"><button className="bg-orange-500 text-white px-4 py-2 rounded">Contact Us</button></a>
+      <a href="/"><button className="bg-orange-500 text-white px-4 py-2 rounded">Home</button></a>
     </header>
   );
 }
 
-export default Header;
-
+export default ContactHeader;

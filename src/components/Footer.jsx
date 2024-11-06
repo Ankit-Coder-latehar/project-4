@@ -4,65 +4,61 @@ const Footer = () => {
   return (
     <footer className="bg-black text-white py-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
           
-          <div>
+          {/* Company Information Section */}
+          <div className="lg:col-span-1">
             <h2 className="text-2xl font-semibold mb-4">
-              T R J & <br/>Associates
+              Cashback <br /> Assured
             </h2>
-            <p className="text-gray-400">Chartered Accountants</p>
-            <p className="mt-4 text-gray-400">
-              T R J & Associates is amongst the experienced Chartered Accountancy firms. The firm offers full suite business service solutions to our domestic and international clients.
+            <p className="text-gray-400 mb-4">All Types of Insurance</p>
+            <p className="text-gray-400">
+              T R J & Associates is among the experienced Chartered Accountancy firms, offering comprehensive business service solutions for both domestic and international clients.
             </p>
           </div>
           
-          <div>
-            <h3 className="text-lg font-semibold mb-4">SERVICES</h3>
-            <ul className="text-gray-400">
-              <a href='/direct-tax-services'><li className="mb-2 hover:text-[#F37920]">Direct Tax Services</li></a>
-              <a href='/indirect-tax-services'><li className="mb-2 hover:text-[#F37920]">Indirect Tax</li></a>
-              <a href='/auditing-and-assurance-service'><li className="mb-2 hover:text-[#F37920]">Auditing and Assurance Services</li></a>
-              <a href='/corporate-and-LLP-Laws'><li className="mb-2 hover:text-[#F37920]">Corporate and LLP Laws</li></a>
-            </ul>
-          </div>
-          
-          <div>
-            <h3 className="text-lg font-semibold mb-4">TERMS</h3>
-            <ul className="text-gray-400">
-              <a href='/privacypolicy'><li className="mb-2 hover:text-[#F37920]">Privacy Policy</li></a>
-              <a href='/terms-condition'><li className='hover:text-[#F37920]'>Terms and Conditions</li></a>
-            </ul>
-          </div>
-          
-          <div>
-            <h3 className="text-lg font-semibold mb-4">GET IN TOUCH</h3>
-            <ul className="text-gray-400">
-              <li className="mb-2 flex items-start">
-                <span className="inline-block w-4 text-yellow-500">&#8226;</span> 
-                <span className="ml-2">
-                  Address: Unit no 201, <br/>Pyramid House 
-                  NH-08,<br/> Sector 33, Gurugram - 122001 <br />
-                  Haryana
-                </span>
-              </li>
-              <li className="mb-2 flex items-start">
-                <span className="inline-block w-4 text-yellow-500">&#8226;</span> 
-                <span className="ml-2">+91-8447484647, +91-9560153500</span>
-              </li>
-              <li className="mb-2 flex items-start">
-                <span className="inline-block w-4 text-yellow-500">&#8226;</span> 
-                <span className="ml-2">info@trjassociates.in</span>
-              </li>
-              <li className="flex items-start">
-                <span className="inline-block w-4 text-yellow-500">&#8226;</span> 
-                <span className="ml-2">TRJ Associates</span>
-              </li>
+          {/* Services Section (Centered) */}
+          <div className="lg:col-span-2 text-center">
+            <h3 className="text-lg font-semibold mb-4">Services</h3>
+            <ul className="text-gray-400 space-y-2">
+              <li><a href='/direct-tax-services' className="hover:text-[#F37920]">Truck Insurance</a></li>
+              <li><a href='/indirect-tax-services' className="hover:text-[#F37920]">Car Insurance</a></li>
+              <li><a href='/auditing-and-assurance-service' className="hover:text-[#F37920]">Health Insurance</a></li>
+              <li><a href='/corporate-and-LLP-Laws' className="hover:text-[#F37920]">Motor Bikes Insurance</a></li>
+              <li><a href='/corporate-and-LLP-Laws' className="hover:text-[#F37920]">Land Insurance</a></li>
+              <li><a href='/corporate-and-LLP-Laws' className="hover:text-[#F37920]">Travel Insurance</a></li>
+              <li><a href='/corporate-and-LLP-Laws' className="hover:text-[#F37920]">Family Insurance</a></li>
             </ul>
           </div>
 
+          {/* Contact Section (Right Side) */}
+          <div className="lg:col-span-1 lg:text-left">
+            <h3 className="text-lg font-semibold mb-4">Get in Touch</h3>
+            <ul className="text-gray-400 space-y-2">
+              <li className="flex items-start">
+                <span className="inline-block w-4 text-yellow-500">&#8226;</span> 
+                <span className="ml-2">
+                  Address: H/No. - 472, <br /> Sector 6, Gurugram - 122001, <br /> Haryana
+                </span>
+              </li>
+              <li className="flex items-start">
+                <span className="inline-block w-4 text-yellow-500">&#8226;</span> 
+                <span className="ml-2">+91-9643474388</span>
+              </li>
+              <li className="flex items-start">
+                <span className="inline-block w-4 text-yellow-500">&#8226;</span> 
+                <span className="ml-2">prakul.sk55@gmail.com</span>
+              </li>
+              <li className="flex items-start">
+                <span className="inline-block w-4 text-yellow-500">&#8226;</span> 
+                <span className="ml-2">Cashback Assured</span>
+              </li>
+            </ul>
+          </div>
+          
         </div>
-        <div className="mt-10 text-center text-gray-400">
-          <p>Copyright © 2024 TRJ & Associates</p>
+        <div className="mt-12 text-center text-gray-400 border-t border-gray-700 pt-6">
+          <p>Copyright © 2024 Cashback Assured</p>
         </div>
       </div>
     </footer>
@@ -70,3 +66,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

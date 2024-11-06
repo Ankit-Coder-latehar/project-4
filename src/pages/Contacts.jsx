@@ -1,12 +1,12 @@
 import React from 'react'
 import ContactForm from '../components/Contact'
-import Header from '../components/Header'
 import Footer from '../components/Footer'
+import ContactHeader from '../components/ContactHeader'
 
 const Contacts = () => {
   return (
     <div>
-      <Header/>
+      <ContactHeader/>
       <ContactForm/>
       <Footer/>
     </div>
