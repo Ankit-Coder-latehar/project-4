@@ -20,23 +20,43 @@ const InsuranceGuides = () => {
   const guides = [
     { 
       title: 'Life Insurance', 
-      description: 'Learn more about Life Insurance policies and benefits.',
+      description: 'Ensure your loved ones future with a life insurance plan that grows with them. From coverage to peace of mind, we’re here to support your dreams and safeguard the people you care about most.',
       image: 'https://media.istockphoto.com/id/1290693328/photo/family-care-concept-hands-with-paper-silhouette-on-table.jpg?s=612x612&w=0&k=20&c=ndKmKJeFdkTjQ2ivwGp4-_y3W69MsmBeqMhGAdYC9O4='
     },
     { 
       title: 'Home Insurance', 
-      description: 'Explore options to secure your home.',
+      description: 'Your home is more than a building; it’s a reflection of your dreams. Our home insurance plans are designed to give you the comfort of knowing that everything youve built is protected.',
       image: 'https://media.istockphoto.com/id/666996082/photo/insurance.jpg?s=612x612&w=0&k=20&c=SpxK_8UfGDxZ0pWJd_qfoD8oPFqRCOxE8alXYhMaFSA='
     },
     { 
       title: 'Auto Insurance', 
-      description: 'Get the right coverage for your vehicle.',
+      description: 'Wherever the road takes you, drive with the peace of mind that our auto insurance has you covered. From accidents to roadside assistance, we’re here to keep you moving forward.',
       image: 'https://media.istockphoto.com/id/1264403893/photo/concept-of-insurance-man-protective-and-car-family-health-insurance-policy-examining.jpg?s=612x612&w=0&k=20&c=uWAHnHBqar1YTJB0VzUY9EZ7jwXoZwGiDbawbrUwsKI='
     },
     { 
       title: 'Education Insurance', 
-      description: 'Plan for your child’s education.',
+      description: 'Education is one of the greatest gifts you can give. Our education insurance helps you plan for your child’s future, ensuring that their dreams are within reach, no matter what.',
       image: 'https://www.enrizon.com/wp-content/uploads/2020/03/Learning-the-Importance-of-Education-Related-Insurance-Products.png'
+    },
+    { 
+      title: 'Motor Bike Insurance', 
+      description: 'From daily commutes to weekend adventures, our motorbike insurance provides the protection you need for every ride. Peace of mind, built for two wheels',
+      image: 'https://www.bajajallianz.com/blog/wp-content/uploads/2021/04/motorcycle-insurance-online-buyers-guide.png'
+    },
+    { 
+      title: 'Truck Insurance', 
+      description: 'Protect your livelihood and every mile you drive with comprehensive truck insurance. From cargo to liability coverage, we ensure that your truck and business stay safe on the road.',
+      image: 'https://www.fr8.in/blog/wp-content/uploads/2023/03/CTTI.png'
+    },
+    { 
+      title: 'Land Insurance', 
+      description: 'Whether it’s vacant property or development land, our land insurance provides essential coverage for your asset, safeguarding your investment from unexpected risks.',
+      image: 'https://abheeventures.com/assets/img/blogs/property-insurance-benefits-and-cost-india.webp'
+    },
+    { 
+      title: 'Family Insurance', 
+      description: 'From health to life insurance, our family plans ensure that everyone in your family is protected. Safeguard your loved ones with customized options that fit your family’s unique needs.',
+      image: 'https://img.choice.com.au/-/media/e71ebf8ab10548de90c0bcd6e7eaf32d.ashx?w=660&jq=80%20660w'
     }
   ];
 
@@ -73,15 +93,8 @@ const InsuranceGuides = () => {
             alt="Guide"
             className="rounded-3xl shadow-lg w-full"
           />
-          <div className="absolute top-4 right-4 bg-orange-500 p-2 rounded-xl">
-            <div className="text-white text-sm flex items-center">
-              Get Guidelines
-              <span className="ml-2 text-xl">&#8594;</span>
-            </div>
-          </div>
-          <button className="absolute bottom-4 right-4 bg-gray-800 text-white px-4 py-2 rounded-lg shadow-lg">
-            Learn More
-          </button>
+         
+          
         </div>
       </div>
     </div>

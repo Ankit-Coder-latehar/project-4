@@ -13,7 +13,7 @@ const Footer = () => {
             </h2>
             <p className="text-gray-400 mb-4">All Types of Insurance</p>
             <p className="text-gray-400">
-              T R J & Associates is among the experienced Chartered Accountancy firms, offering comprehensive business service solutions for both domestic and international clients.
+            Cashback Assured Insurance offers innovative coverage with cashback rewards for both individuals and businesses. We combine top-tier protection with financial benefits, ensuring our clients receive both security and savings on their premiums. Trust us for a smarter, more rewarding insurance experience.
             </p>
           </div>
           

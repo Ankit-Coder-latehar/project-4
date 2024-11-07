@@ -1,4 +1,3 @@
-// src/components/ContactForm.js
 import React, { useState } from 'react';
 import { FaUser, FaEnvelope, FaPhone, FaPaperPlane } from 'react-icons/fa';
 
@@ -21,8 +20,20 @@ function ContactForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert('Form submitted');
-    // Handle form submission (e.g., API call)
+
+    const mailtoLink = `mailto: prakul.sk55@gmail.com?subject=Contact Form Submission&body=Name: ${formData.name}%0AEmail: ${formData.email}%0APhone: ${formData.phone}%0AMessage: ${formData.message}`;
+
+    // Open the default email client with the pre-filled form data
+    window.location.href = mailtoLink;
+
+    // Optionally, clear the form after submission
+    setFormData({
+      name: '',
+      email: '',
+      phone: '',
+      message: '',
+      agreement: false,
+    });
   };
 
   return (
@@ -96,7 +107,7 @@ function ContactForm() {
               ></textarea>
               <div className="text-gray-500 text-sm text-right mt-1">300/300</div>
             </div>
-           
+
             <button
               type="submit"
               className="w-full bg-gradient-to-r from-purple-500 to-blue-500 text-white font-semibold py-3 rounded-lg flex items-center justify-center hover:from-purple-600 hover:to-blue-600 transition duration-300"
