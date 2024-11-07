@@ -5,7 +5,7 @@ function Header() {
   return (
     <header className="flex justify-between items-center p-2 bg-gray-100">
       <div className="flex items-center space-x-4">
-        <img src="/Blue Black White Simple Illustration Insurance Company Logo.png" alt="Qikbuk Logo" className="h-8" />
+        <img src="/Screenshot 2024-11-07 183817.png" alt="Qikbuk Logo" className="h-12" />
       </div>
       <nav className="flex space-x-6 text-center">
         {/* Adding email and phone icons */}
