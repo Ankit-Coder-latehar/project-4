@@ -9,21 +9,21 @@ const FeaturedSection = () => {
       </p>
 
       {/* Logos Section */}
-      <div className="flex space-x-6 md:space-x-12 opacity-70 items-center justify-center">
+      <div className="flex flex-wrap space-x-6 md:space-x-12 opacity-70 items-center justify-center md:justify-start">
         <img
           src="/Screenshot 2024-11-05 154431.png"
           alt="Fast Company"
-          className="h-8 md:h-10 w-auto"
+          className="h-8 md:h-10 w-auto mb-4 md:mb-0"
         />
         <img
           src="/Screenshot 2024-11-05 154439.png"
           alt="The Wall Street Journal"
-          className="h-8 md:h-10 w-auto"
+          className="h-8 md:h-10 w-auto mb-4 md:mb-0"
         />
         <img
           src="/Screenshot 2024-11-05 154446.png"
           alt="USA Today"
-          className="h-8 md:h-10 w-auto"
+          className="h-8 md:h-10 w-auto mb-4 md:mb-0"
         />
       </div>
     </div>

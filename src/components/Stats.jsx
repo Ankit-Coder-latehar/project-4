@@ -7,7 +7,7 @@ function Stats() {
       <div className="flex flex-col space-y-2 max-w-sm md:ml-20 text-center md:text-left">
         <h3 className="text-3xl md:text-5xl font-extrabold">Easy And Supporting</h3>
         <p className="text-lg md:text-xl font-semibold leading-relaxed">
-          Policygenius provides free quotes tailored to your needs with support from licensed agents, helping you get insurance coverage.
+        Protect what matters most with Cashback Assured Insurance — where comprehensive coverage meets rewarding cashback benefits!
         </p>
       </div>
       

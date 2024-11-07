@@ -21,7 +21,7 @@ const TrustSection = () => {
         <h2 className="text-4xl font-bold text-gray-800 text-center">Why Trust Our Service?</h2>
         
         {/* Features Grid aligned on the left */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4 md:mt-0">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4 md:mt-0 ml-10">
           {/* Feature 1 */}
           <div className="flex items-start space-x-4">
             <div className="bg-orange-100 text-orange-600 font-bold p-2 rounded-full">01</div>

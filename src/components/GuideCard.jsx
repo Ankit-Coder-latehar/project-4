@@ -26,7 +26,7 @@ const InsuranceGuides = () => {
     { 
       title: 'Home Insurance', 
       description: 'Your home is more than a building; it’s a reflection of your dreams. Our home insurance plans are designed to give you the comfort of knowing that everything youve built is protected.',
-      image: 'https://media.istockphoto.com/id/666996082/photo/insurance.jpg?s=612x612&w=0&k=20&c=SpxK_8UfGDxZ0pWJd_qfoD8oPFqRCOxE8alXYhMaFSA='
+      image: 'https://kumarinvestmentsolutions.com/wp-content/uploads/2021/04/What-are-the-main-benefits-of-taking-up-home-insurance-1-1.jpg'
     },
     { 
       title: 'Auto Insurance', 
@@ -51,7 +51,7 @@ const InsuranceGuides = () => {
     { 
       title: 'Land Insurance', 
       description: 'Whether it’s vacant property or development land, our land insurance provides essential coverage for your asset, safeguarding your investment from unexpected risks.',
-      image: 'https://abheeventures.com/assets/img/blogs/property-insurance-benefits-and-cost-india.webp'
+      image: 'https://cdn.prod.website-files.com/61d8bd8e7dfa2dd9aba11ff0/635b9a09f911766a34dbe9cf_What%20do%20I%20Need%20to%20Know%20About%20Commercial%20Property%20Insurance.jpg'
     },
     { 
       title: 'Family Insurance', 
