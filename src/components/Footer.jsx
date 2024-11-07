@@ -21,13 +21,13 @@ const Footer = () => {
           <div className="lg:col-span-2 text-center">
             <h3 className="text-lg font-semibold mb-4">Services</h3>
             <ul className="text-gray-400 space-y-2">
-              <li><a href='/direct-tax-services' className="hover:text-[#F37920]">Truck Insurance</a></li>
-              <li><a href='/indirect-tax-services' className="hover:text-[#F37920]">Car Insurance</a></li>
-              <li><a href='/auditing-and-assurance-service' className="hover:text-[#F37920]">Health Insurance</a></li>
-              <li><a href='/corporate-and-LLP-Laws' className="hover:text-[#F37920]">Motor Bikes Insurance</a></li>
-              <li><a href='/corporate-and-LLP-Laws' className="hover:text-[#F37920]">Land Insurance</a></li>
-              <li><a href='/corporate-and-LLP-Laws' className="hover:text-[#F37920]">Travel Insurance</a></li>
-              <li><a href='/corporate-and-LLP-Laws' className="hover:text-[#F37920]">Family Insurance</a></li>
+              <li>Truck Insurance</li>
+              <li>Car Insurance</li>
+              <li>Health Insurance</li>
+              <li>Motor Bikes Insurance</li>
+              <li>Land Insurance</li>
+              <li>Travel Insurance</li>
+              <li>Family Insurance</li>
             </ul>
           </div>
 
