@@ -5,7 +5,7 @@ function ContentHeader() {
   return (
     <header className="flex justify-between items-center p-2 bg-gray-100">
       <div className="flex items-center space-x-4">
-        <img src="/Screenshot 2024-11-07 183817.png" alt="Qikbuk Logo" className="h-12" />
+        <img src="/Screenshot 2024-11-07 183817.png" alt="Qikbuk Logo" className="h-16" />
       </div>
       <nav className="flex space-x-6 text-center">
         {/* Adding email and phone icons */}
@@ -15,7 +15,7 @@ function ContentHeader() {
             prakul.sk55@gmail.com
           </a>
           <a href="tel:+1234567890" className="flex items-center hover:text-gray-900">
-            <FaPhone className="mr-2" /> +91-9643474388
+            <FaPhone className="mr-2" /> +91-9643474388 , +91-9289576646
           </a>
         </div>
       </nav>
